@@ -15,14 +15,7 @@ void main() async {
   MoviesRepository moviesRepository =
       MoviesRepositoryImplement(remoteDataSource);
   GetTrending getTrending = GetTrending(moviesRepository);
-  final movies = await getTrending();
-  if (movies != null) {
-    //Show ui widgets to display list from movies
-  } else {
-    // show generic error msg
-    // or do something
-
-  }
+  getTrending();
 
   runApp(Appku());
 }
