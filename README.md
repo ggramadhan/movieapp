@@ -1,3 +1,3 @@
 # movieapp
 
-Simple flutter movie application with functional.
+Building a flutter movie application with standard industry.
